@@ -39,12 +39,13 @@ body {
     width: 100%;
 }
 
-.card h3, .card p {
+.card h1, .card p {
     margin: 1rem;
 }
 
-.card h3 {
+.card h1 {
     color: var(--dark-blue);
+    font-size: 1.2rem;
 }
 
 .card p {
