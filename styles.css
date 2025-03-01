@@ -17,44 +17,46 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--light-gray);
     font-size: 15px;
-    min-height: 100vh;
-}
-
-.card, .card img {
-    border-radius: .7rem;
+    text-align: center;
+    min-height: 100dvh;
 }
 
 .card {
     background-color: var(--white);
-    width: 300px;
-    padding: 1rem;
+    width: 320px;
+    padding: 16px;
+    padding-bottom: 40px;
     text-align: center;
+    border-radius: 20px;
 }
 
 .card img {
-    width: 100%;
+    border-radius: 10px;
+    width: 288px;
+    height: 288px;
+    margin-bottom: 24px;
 }
 
 .card h1, .card p {
-    margin: 1rem;
+    margin: 0 16px;
 }
 
 .card h1 {
     color: var(--dark-blue);
     font-size: 1.2rem;
+    margin-bottom: 16px;
 }
 
 .card p {
     color: var(--grayish-blue);
+    
 }
 
-.attribution {
-    position: absolute;
-    bottom: 1.5rem;
-    left: 50%;
-    transform: translateX(-50%);
+footer {
+    margin: 1rem 0;
 }
