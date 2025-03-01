@@ -18,7 +18,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: var(--light-gray);
     font-size: 15px;
@@ -58,5 +58,6 @@ body {
 }
 
 footer {
-    margin: 1rem 0;
+    position: absolute;
+    bottom: 1rem;
 }
